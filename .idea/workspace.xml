@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="torrent:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b156c13d-484d-4b75-8afd-e1e9026e0fe5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/torrent_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/lib/annotations-java8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/lib/byte-buddy-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/lib/byte-buddy-agent-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/lib/mockito-core-2.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/lib/objenesis-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JUnit4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/annotations_java8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/annotations-java8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-agent-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mockito-core-2.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/objenesis-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/AbstractServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/TorrentClientStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/TorrentServerStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingDaemonThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClientShareServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/TorrentShareServerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/ClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/DisconnectClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/DownloadFileClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListClientsClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListFilesClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterFilesClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterUserClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/UnregisterFilesClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/UpdateUserMappingClientCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/enums/ClientCommandsKeywords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/models/Peer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultPeerParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/ClientCommandParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/PeerParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/ResponseParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemoryPeerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemorySharedFilesRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/PeerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/SharedFilesRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/exceptions/ClientAlreadyExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/exceptions/ClientNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/models/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/models/SharedFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/BaseServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListUsersServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterUserServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/ServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterFilesServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryClientRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryFileRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/repositories/interfaces/ClientRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/torrent/bg/sofia/uni/fmi/mjt/torrent/server/repositories/interfaces/FileRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriterTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/DisconnectCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListClientsClientCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListFilesClientCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterUserClientCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/commands/UpdateUserMappingClientCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParserTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultPeerParserTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParserTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemoryPeerRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemorySharedFilesRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServerTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListUsersServerCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterUserServerCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterFilesServerCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommandTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParserTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryClientRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/torrent/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryFileRepositoryTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/AbstractServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/TorrentClientStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/TorrentServerStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingDaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClientShareServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentShareServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/ClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/DisconnectClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/DownloadFileClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListClientsClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListFilesClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterFilesClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterUserClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/UnregisterFilesClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/UpdateUserMappingClientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/enums/ClientCommandsKeywords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/models/Peer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultPeerParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/ClientCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/PeerParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/ResponseParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemoryPeerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemorySharedFilesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/PeerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/SharedFilesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/exceptions/ClientAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/exceptions/ClientNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/models/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/models/SharedFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/BaseServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListUsersServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterUserServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/ServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterFilesServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/interfaces/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/interfaces/FileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriterTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/DisconnectCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListClientsClientCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListFilesClientCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterUserClientCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/UpdateUserMappingClientCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultPeerParserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemoryPeerRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemorySharedFilesRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListUsersServerCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterUserServerCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterFilesServerCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommandTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryClientRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryFileRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torrent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/torrent$ServerCommandParserTests.ic" NAME="ServerCommandParserTests Coverage Results" MODIFIED="1549294762319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.torrent.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/torrent$Main.ic" NAME="Main Coverage Results" MODIFIED="1549442755489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.torrent.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/torrent$All_in_torrent.ic" NAME="All in torrent Coverage Results" MODIFIED="1549557243351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/torrent$bg_sofia_uni_fmi_mjt_torrent_server_in_torrent.ic" NAME="bg.sofia.uni.fmi.mjt.torrent.server in torrent Coverage Results" MODIFIED="1549351757305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.torrent.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/torrent$TorrentServerTests.ic" NAME="TorrentServerTests Coverage Results" MODIFIED="1549539206384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.torrent.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/torrent$InMemoryClientFileMappingRepositoryTests_testRepositoryRegistersMultipleFiles.ic" NAME="InMemoryClientFileMappingRepositoryTests.testRepositoryRegistersMultipleFiles Coverage Results" MODIFIED="1549433638136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.torrent.client.repositories.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/torrent.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/TorrentClientStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultPeerParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryFileRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>then</find>
+      <find>fileMappingrepo</find>
+      <find>block</find>
+      <find>.start</find>
+      <find>DEFAULT_SERVER_PORT</find>
+      <find>torrentServerPort</find>
+      <find>localServerPort</find>
+      <find>strip</find>
+      <find>Download</find>
+      <find>tokens</find>
+      <find>complexCommandMinLength</find>
+      <find>UNREGISTEr</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/RemoteUserParser.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/interfaces/PeerParser.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/Main.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/TorrentServerStart.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/ClientStart.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/RemoteUserRepository.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/PeerRepository.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/ClientFileMappingRepository.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/SharedFilesRepository.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/models/Client.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/interfaces/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriter.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/TorrentClientStart.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListClientsClientCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentShareServerThread.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/AbstractServer.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListFilesClientCommand.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/UnregisterFilesClientCommandTests.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemorySharedFilesRepository.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterFilesServerCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/UnregisterFilesClientCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingDaemonThread.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParser.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultPeerParser.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/DisconnectClientCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClientShareServer.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/DownloadFileClientCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterFilesClientCommand.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClient.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParser.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServer.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParser.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/DisconnectCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParserTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParserTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemoryPeerRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemorySharedFilesRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterUserServerCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParserTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServerTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriterTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListFilesClientCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListClientsClientCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterFilesServerCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListUsersServerCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterUserClientCommandTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommandTests.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-p2p-file-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-p2p-file-sharing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-p2p-file-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-p2p-file-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-p2p-file-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-p2p-file-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-p2p-file-sharing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-p2p-file-sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="torrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ListUsersServerCommand&#9;PSI&#9;JAVA://bg.sofia.uni.fmi.mjt.torrent.server.commands.ListUsersServerCommand" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578503291871" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bg.sofia.uni.fmi.mjt.torrent" />
+      <recent name="bg.sofia.uni.fmi.mjt.torrent.server.commands" />
+      <recent name="bg.sofia.uni.fmi.mjt.torrent.client.commands" />
+      <recent name="bg.sofia.uni.fmi.mjt.torrent.server.parsers" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bg.sofia.uni.fmi.mjt.torrent.client.parsers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TorrentClientStart">
+    <configuration name="TorrentClientStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.torrent.TorrentClientStart" />
+      <module name="torrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.torrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TorrentServerStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.torrent.TorrentServerStart" />
+      <module name="torrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.torrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in torrent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="torrent" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterFilesServerCommandTests.testRegisterFilesCommandReturnsSuccessfulOutputInCorrectFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="torrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.torrent.server.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.torrent.server.commands" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.torrent.server.commands.RegisterFilesServerCommandTests" />
+      <option name="METHOD_NAME" value="testRegisterFilesCommandReturnsSuccessfulOutputInCorrectFormat" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerCommandParserTests.testServerCommandParserReturnsRegisterFilesCommandGivenExpectedFormat" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="torrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.torrent.server.parsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.torrent.server.parsers" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.torrent.server.parsers.ServerCommandParserTests" />
+      <option name="METHOD_NAME" value="testServerCommandParserReturnsRegisterFilesCommandGivenExpectedFormat" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TorrentServerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="torrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.torrent.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.torrent.server" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.torrent.server.TorrentServerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TorrentServerStart" />
+      <item itemvalue="Application.TorrentClientStart" />
+      <item itemvalue="JUnit.ServerCommandParserTests.testServerCommandParserReturnsRegisterFilesCommandGivenExpectedFormat" />
+      <item itemvalue="JUnit.All in torrent" />
+      <item itemvalue="JUnit.TorrentServerTests" />
+      <item itemvalue="JUnit.RegisterFilesServerCommandTests.testRegisterFilesCommandReturnsSuccessfulOutputInCorrectFormat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TorrentClientStart" />
+        <item itemvalue="Application.TorrentServerStart" />
+        <item itemvalue="JUnit.All in torrent" />
+        <item itemvalue="JUnit.RegisterFilesServerCommandTests.testRegisterFilesCommandReturnsSuccessfulOutputInCorrectFormat" />
+        <item itemvalue="JUnit.TorrentServerTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b156c13d-484d-4b75-8afd-e1e9026e0fe5" name="Default" comment="" />
+      <created>1549225965636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549225965636</updated>
+      <workItem from="1549225973151" duration="742000" />
+      <workItem from="1549228047901" duration="4996000" />
+      <workItem from="1549264702741" duration="6100000" />
+      <workItem from="1549289101809" duration="3435000" />
+      <workItem from="1549293873958" duration="8224000" />
+      <workItem from="1549345944320" duration="39665000" />
+      <workItem from="1549399270596" duration="6525000" />
+      <workItem from="1549433424020" duration="18294000" />
+      <workItem from="1549455193366" duration="14165000" />
+      <workItem from="1549521849111" duration="18859000" />
+      <workItem from="1549552159959" duration="4886000" />
+      <workItem from="1549818842540" duration="238000" />
+      <workItem from="1549964170266" duration="319000" />
+      <workItem from="1549965408095" duration="2784000" />
+      <workItem from="1550834214341" duration="1603000" />
+      <workItem from="1551007094676" duration="34000" />
+      <workItem from="1551007269722" duration="83000" />
+      <workItem from="1578465559284" duration="5240000" />
+      <workItem from="1578502519060" duration="670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_torrent - 2019.02.07 at 15h 47m 33s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2019.02.07 at 17h 34m 53s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2019.02.07 at 18h 34m 10s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2019.02.10 at 19h 14m 53s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2019.02.12 at 12h 19m 18s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterFilesServerCommandTests_testRegisterFilesCommandReturnsSuccessfulOutputInCorrectFormat - 2019.02.22 at 13h 22m 10s.xml">
+      <configuration name="RegisterFilesServerCommandTests.testRegisterFilesCommandReturnsSuccessfulOutputInCorrectFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2019.02.22 at 13h 22m 23s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2019.02.22 at 13h 23m 12s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2020.01.08 at 09h 26m 55s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_torrent - 2020.01.08 at 18h 56m 23s.xml">
+      <configuration name="All in torrent" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136862000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30408472" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49926794" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4750378" visible="true" weight="0.25281805" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4875549" weight="0.39906102" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49621785" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5249622" side_tool="true" weight="0.25281805" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" sideWeight="0.49853587" weight="0.32783505" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4941435" weight="0.3286385" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.2635432" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29062957" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47877014" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4875549" weight="0.39906102" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49926794" weight="0.3286385" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.52122986" side_tool="true" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" sideWeight="0.49853587" weight="0.3286385" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4941435" weight="0.3286385" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.329429" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="firstLine" />
+        <watch expression="length - totalReadBytes" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>length - totalReadBytes &lt; 2000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>totalReadBytes - length &gt; 2000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>totalReadBytes - length &lt; 2000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>length - totalReadBytes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;list-files\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemoryPeerRepositoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemorySharedFilesRepositoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterUserServerCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriterTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListFilesClientCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/ListClientsClientCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterFilesServerCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListUsersServerCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterUserClientCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/DownloadFileClientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-774">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterUserClientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/RegisterFilesClientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterFilesServerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/RegisterUserServerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/TorrentServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/interfaces/PeerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingDaemonThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/UnregisterUserServerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/UnregisterFilesClientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/repositories/InMemoryPeerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/models/Peer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/PeerMappingWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentShareServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/nio/channels/SelectableChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="256" column="30" selection-start-line="256" selection-start-column="30" selection-end-line="256" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/AbstractServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/nio/channels/SocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="492" column="24" selection-start-line="492" selection-start-column="24" selection-end-line="492" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClientShareServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/exceptions/ClientAlreadyExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/exceptions/ClientNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/models/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/models/SharedFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/parsers/ServerCommandParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommandTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/DisconnectClientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/commands/enums/ClientCommandsKeywords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultPeerParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/commands/ListFilesServerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultResponseParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/server/repositories/InMemoryFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/TorrentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/client/parsers/DefaultClientCommandParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/torrent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/torrent/TorrentClientStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>torrent:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>torrent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>annotations-java8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

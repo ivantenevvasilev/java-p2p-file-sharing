@@ -1,6 +1,8 @@
 package bg.sofia.uni.fmi.mjt.torrent.server;
 
 import bg.sofia.uni.fmi.mjt.torrent.AbstractServer;
+import bg.sofia.uni.fmi.mjt.torrent.models.Client;
+import bg.sofia.uni.fmi.mjt.torrent.models.SharedFile;
 import bg.sofia.uni.fmi.mjt.torrent.server.commands.ServerCommand;
 import bg.sofia.uni.fmi.mjt.torrent.server.parsers.ServerCommandParser;
 import bg.sofia.uni.fmi.mjt.torrent.server.repositories.interfaces.ClientRepository;
@@ -8,6 +10,7 @@ import bg.sofia.uni.fmi.mjt.torrent.server.repositories.interfaces.FileRepositor
 
 import java.io.Closeable;
 import java.io.IOException;
+import java.net.Inet4Address;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
@@ -16,7 +19,11 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class TorrentServer extends AbstractServer {
     public static final int SERVER_PORT = 5443;
@@ -57,7 +64,9 @@ public class TorrentServer extends AbstractServer {
     public void read(SelectionKey key) {
         SocketChannel sc = (SocketChannel) key.channel();
         this.commandBuffer.clear();
-
+        ServerCommandParser parser = new ServerCommandParser(this.fileRepository,
+                this.clientRepository,
+                sc);
         try {
             while (true) {
                 int r = sc.read(commandBuffer);
@@ -67,9 +76,7 @@ public class TorrentServer extends AbstractServer {
             }
             this.commandBuffer.flip();
             String commandLine = StandardCharsets.UTF_8.decode(this.commandBuffer).toString();
-            ServerCommandParser parser = new ServerCommandParser(this.fileRepository,
-                    this.clientRepository,
-                    sc);
+
             ServerCommand commandToExecute = parser.getCommand(commandLine);
             String result = commandToExecute != null ? commandToExecute.execute().trim() : "Invalid command";
 
@@ -83,6 +90,32 @@ public class TorrentServer extends AbstractServer {
 
         } catch (IOException e) {
             System.out.println("Client Socket was closed");
+            try {
+                InetSocketAddress addr = ((InetSocketAddress) ((SocketChannel) key.channel()).getRemoteAddress());
+                String name = addr.getAddress().getHostAddress();
+                int port = addr.getPort();
+                Optional<Client> client = this.clientRepository.getActiveClients().stream().filter(x->
+                        x.getRemoteConnectionPort() == port && x.getRemoteAddress().equals(name)
+                ).findFirst();
+                if(client.isPresent()) {
+                    String commandLine = "unregister-user " + client.get().getUsername();
+                    ServerCommand commandToExecute = parser.getCommand(commandLine);
+                    commandToExecute.execute();
+                    List<String> files = this.fileRepository
+                            .getRegisteredFiles()
+                            .stream()
+                            .filter(f -> f.getUser().equals(client.get().getUsername()))
+                            .map(SharedFile::getPath)
+                            .collect(Collectors.toList());
+                    if (!files.isEmpty()) {
+                        String removeFilesCommand = "unregister " + name + ' ' + String.join(", ", files);
+                        commandToExecute = parser.getCommand(removeFilesCommand);
+                        commandToExecute.execute();
+                    }
+                }
+            } catch (IOException e1) {
+
+            }
             key.cancel();
         }
     }
